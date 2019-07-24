@@ -2,7 +2,7 @@
 Largely based on this [Udemy course](https://www.udemy.com/rest-api-flask-and-python/)
 ### What is a web server?
 - Sometimes referred to the hardware
-- Sometimes referred to a pieve of software designed to respond to a user request
+- Sometimes referred to a piece of software designed to respond to a user request
 
 ### What is a request?
 A request is data that a user/web app sends to a web server
@@ -45,7 +45,17 @@ DELETE| Remove something| DELETE /item/1
 	- Web server doesn't respond with data, responds with resources instead
 	- Interactions are stateless
 
-
 ### What are resources in REST?
 Resources are basically abstractions that encapsulate data. Its a way of thinking about data and how the server and user use it for interaction. `GET /item/chair` is retrieving the chair resource
+
+### Give an example to explain what is meant by stateless in REST?
+- A user logs into web application
+- Server does not keep track of requests and responses related to the login and thus does not know that the user is logged in
+- The web application must send enough data to identify the user in every request or else the server won't associate the request with the user
+- In the same way, the server must be programmed to associate every request to the specific user 
+
+### 
+
+
+
 
