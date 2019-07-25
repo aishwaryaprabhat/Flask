@@ -103,7 +103,7 @@ def some_function(name):
 
 ```
 
-#### Accepting data using Request
+#### Receiving input data using Request
 ```
 from flask import Flask, jsonify, request
 
@@ -124,7 +124,9 @@ def some_function(name):
 
 #### Testing your API
 - [Using curl to test REST API app](https://www.baeldung.com/curl-rest)
-- [Using Postman](https://www.guru99.com/postman-tutorial.html) 
+- [Using Postman](https://www.guru99.com/postman-tutorial.html)
+
+
 
 
 
